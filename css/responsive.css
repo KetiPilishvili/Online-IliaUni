@@ -148,10 +148,14 @@
   }
 }
 @media (max-width: 750px){
-  .site-footer{
+  .container-fluid{
     height: 483px;
   }
   .footer-logo{
     top: 46px;
+  }
+  .confidence{
+    left: 30%;
+    top: 186px;
   }
 }
