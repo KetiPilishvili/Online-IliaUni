@@ -129,15 +129,29 @@
   }
 }
 
-/*grid responsive*/
-
-@media(max-width: 1366px){
-  .container-md:nth-child(2){
-      display: none;    
+/*footer resposinve*/
+@media (max-width: 1196px){
+  .footer-logo {
+    width: 300px;
+  }
+  .widget a{
+    left: 60%;
+  }
+  .social-icons{
+    left: 75%;
   }
 }
-@media (max-width: 1200px){
-  .container.row:nth-child(4){
-    display: none;
+
+@media (max-width: 1000px){
+  .social-icons{
+    left: 90%;
+  }
+}
+@media (max-width: 750px){
+  .site-footer{
+    height: 483px;
+  }
+  .footer-logo{
+    top: 46px;
   }
 }
